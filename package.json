@@ -1,5 +1,5 @@
 {
-  "name": "@suthio/redash-mcp",
+  "name": "@sugitata/redash-mcp",
   "version": "0.0.8",
   "description": "MCP server for Redash integration",
   "type": "module",
@@ -28,8 +28,11 @@
     "ai",
     "claude"
   ],
-  "author": "",
+  "author": "sugitata",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.1.0",
     "axios": "^1.6.2",
