@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 import * as dotenv from 'dotenv';
-import { execSync } from 'child_process';
 import { existsSync } from 'fs';
 import * as path from 'path';
 
@@ -25,7 +24,7 @@ if (missingVars.length > 0) {
   console.error('');
   console.error('Or provide them when running the command:');
   console.error('');
-  console.error('REDASH_URL=https://your-redash-instance.com REDASH_API_KEY=your_key npx @suthio/redash-mcp');
+  console.error('REDASH_URL=https://your-redash-instance.com REDASH_API_KEY=your_key npx @sugitat/redash-mcp');
   process.exit(1);
 }
 

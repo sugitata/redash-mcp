@@ -1,6 +1,6 @@
 {
   "name": "@sugitat/redash-mcp",
-  "version": "0.0.8",
+  "version": "1.0.0",
   "description": "MCP server for Redash integration",
   "type": "module",
   "bin": {
